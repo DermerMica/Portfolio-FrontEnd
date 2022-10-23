@@ -1,0 +1,129 @@
+
+.bg-blue {
+    background-color: #7385d6;
+}
+
+
+.list-group {
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: transparent;
+}
+
+.bi.bi-github:hover { 
+    --bs-text-opacity: 1;
+    color:#021a3a !important
+}
+
+.bi.bi-linkedin:hover {
+    --bs-text-opacity: 1;
+    color:#021a3a !important
+}
+
+.bi.bi-facebook:hover {
+    --bs-text-opacity: 1;
+    color:#021a3a !important
+}
+
+.bi.bi-instagram:hover {
+    --bs-text-opacity: 1;
+    color:#021a3a !important
+}
+
+section.banner {
+ background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.7)
+ ),
+ url(./imagen/banner3.jpg);
+ background-size: cover;
+ margin: 0;
+ width: 100%;
+ height: 100vh;
+ background-repeat: no-repeat;
+ position: relative;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ -msn-background-size: cover;
+}
+
+h1.intro{
+    padding-top: 17%;
+    font-size: 4.5rem;
+}
+
+h2.intro{
+    font-size: 3.5rem;
+}
+body {
+    background-color: #7385d6;
+}
+
+.bg-orange{
+    background-color: #1862a7;
+}
+.bg-purple{
+    background-color: rgb(155, 4, 201);
+}
+.bg-green{
+    background-color: rgb(162, 22, 255);
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #070029;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: thin solid #ffffff;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #ffffff ;
+}
+.styled-table tbody tr {
+    font-weight: bold;
+    color: #070029 ;
+}
+
+#texto1 {
+   
+    background-color: rgba(163, 1, 142, 0.15);
+    padding: 50px ;
+}
+
+#texto2 {
+    background-color: rgba(163, 1, 142, 0.15);
+    padding: 50px ;
+}
+
+#texto3 {
+    background-color: rgba(163, 1, 142, 0.15);
+    padding: 50px ;
+}
+
+#progreso {
+    background-color: rgba(163, 1, 142, 0.15);
+    padding: 50px ;
+    
+}
+
+#proyectos{
+    background-color: rgba(163, 1, 142, 0.15);
+    padding: 50px ;
+}
